@@ -56,6 +56,20 @@ nav {
     color: #FFFFFF;
 }
 
+.btn:hover {
+    background: transparent;
+    border: 1px solid #FF3F3A;
+    color: #FF3F3A;
+
+}
+
+.btn.transparent:hover {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    color: #FFFFFF;
+
+
+}
+
 header svg:last-of-type {
     margin-right: 8px;
 }
@@ -759,6 +773,10 @@ h4 {
     text-align: center;
 }
 
+.inputs {
+    z-index: 123;
+}
+
 input {
     width: 402px;
     height: 52px;
@@ -767,6 +785,8 @@ input {
     background-color: #FFFFFF;
     padding: 0 10px;
     margin-right: 24px;
+    color: grey;
+    z-index: 123;
 
 }
 
@@ -777,6 +797,7 @@ input {
     margin: auto;
     position: relative;
     bottom: 50px;
+    z-index: 1;
 }
 
 .hands img {
@@ -899,7 +920,6 @@ h6 {
 .last .container p:last-of-type {
     font-weight: 700;
     font-size: 14px;
-
     line-height: 150%;
     letter-spacing: 0%;
     vertical-align: middle;
