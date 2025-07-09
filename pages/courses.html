@@ -9,7 +9,7 @@
 </head>
 <body>
    <header class="container"> 
-    
+    <div class="header2">
     <div class="left-side">
       <img src="../images/logo copy.png" alt="">
       <nav class="navigate ">
@@ -28,6 +28,7 @@
       <a href="" class="text16px">Log in / Register</a>
     </div>
     </div>
+    </div>
    </header>
 
    <section class="container">
@@ -43,8 +44,8 @@
         <a href="">HR & Recruting <sup>5</sup></a>
          <a href="">Design <sup>2</sup></a>
           <a href="">Development<sup>3</sup></a> </div>
-           <div class="search-button">
-            <p class="search-text">Search course...</p>
+           <div class="search-button" >
+            <input type="text" class="search-text btn" placeholder="Search course..." style="outline: none; border: none; " >
             <img src="../images/search.png" alt="">
           </div>
     </div>
@@ -286,7 +287,7 @@
       </div>
       <div class="buttonlar">
         <div class="search-button" style="background-color: white;">
-     <p class="search-text" style="margin: 13px 271px 13px 16px; ">Your working email</p>
+     <input type="text" class="search-text btn"  placeholder="Your working email"  style="outline: none; border: none; margin: 10px 80px 10px 5px; " >
         </div>
          <div class="button" style="padding: 14px 16px;"> <pre>Get consultation </pre></div>
       </div>
@@ -348,7 +349,7 @@
         <div class="about-us2">
         <h6 class="footer-head">SIGN UP TO OUR NEWSLETTER</h6>
           <div class="footer-button" >
-            <pre class="search-text"  style="margin: 9px 100px 9px 12px;">Email address</pre>
+            <input type="text" class="search-text btn"  placeholder="Email address" style="outline: none; border: none; padding-right: 20px; background-color: transparent;">
             <img src="../images/right-white.png" alt="">
           </div>
           <p class="text10px">*Subscribe to our newsletter to receive communications and early <br> updates from Createx SEO Agency.</p>
@@ -364,5 +365,31 @@
     </div>
     </div>
    </footer>
+   <button class="top">
+    <img src="../images/ant-design_up-outlined.png" alt="">
+   </button>
+
+      <script>
+      window.addEventListener('scroll', function () {
+        toggleBacktop();
+      });
+
+      let backtop = document.querySelector('.top');
+
+      function toggleBacktop() {
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          backtop.classList.add('show');
+        } else {
+          backtop.classList.remove('show');
+        }
+      }
+
+      backtop.addEventListener('click', () => {
+        window.scrollTo(0, 0);
+      });
+    </script>
 </body>
 </html>
