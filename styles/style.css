@@ -43,6 +43,8 @@ nav {
     margin-right: 222px;
 }
 
+
+
 .btn {
     background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
     margin-right: 36px;
@@ -51,7 +53,7 @@ nav {
     letter-spacing: 0.5px;
     font-weight: 700;
     padding: 0 40px;
-    border: none;
+    border: 1px solid #FF3F3A;
     border-radius: 4px;
     color: #FFFFFF;
 }
@@ -299,13 +301,14 @@ h2 {
     display: flex;
     gap: 0;
     margin: 0 auto;
+
 }
 
 .benefits button {
     padding: 10px 20px;
     width: 25%;
     border-radius: 4px;
-    border: none;
+    border: 1px solid white;
     color: #9A9CA5;
     font-size: 16px;
     line-height: 160%;
@@ -320,6 +323,7 @@ h2 {
 .benefits button:hover svg path {
     fill: #FF3F3A;
 }
+
 
 .side {
     display: flex;
@@ -807,11 +811,17 @@ input {
 footer {
     background-color: #1E212C;
 
+
+}
+
+footer p {
+    color: white;
+    opacity: 0.6;
 }
 
 footer .main .container {
     display: flex;
-    gap: 80px;
+    justify-content: space-between;
     padding: 80px 0 60px;
 }
 
@@ -822,10 +832,12 @@ h6 {
     letter-spacing: 1px;
     vertical-align: middle;
     text-transform: uppercase;
+    color: white;
+    margin-bottom: 4px;
 }
 
 .first {
-    width: 479px;
+    width: 279px;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 12px;
@@ -840,20 +852,15 @@ h6 {
     margin-bottom: 14px;
 }
 
-h6 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 1px;
-    vertical-align: middle;
-    text-transform: uppercase;
-    color: white;
+
+.sign h6 {
+    margin-bottom: 24px;
 }
 
 .second {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     width: auto;
 
 }
@@ -868,21 +875,47 @@ h6 {
 }
 
 .footerinput {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 80%;
+    padding: 0 20px;
+
+
+}
+
+.input {
     width: 286px;
     height: 36px;
     border-radius: 4px;
     border: 1px solid #FFFFFF33;
     background: #FFFFFF1F;
-    margin: 24px 0 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+input:focus {
+    border: none;
+    outline: none;
 }
 
 .contact {
     width: 180px;
     margin-right: 20px;
+
+}
+
+.contact p {
+    display: flex;
+    gap: 8px;
+    align-items: center;
 }
 
 .sign {
     color: white;
+    width: 286px;
 }
 
 .sign p {
@@ -909,12 +942,13 @@ h6 {
 
     font-weight: 400;
     font-size: 12px;
-
     line-height: 150%;
     letter-spacing: 0%;
-    vertical-align: middle;
     color: white;
-    vertical-align: center;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    opacity: 0.9;
 }
 
 .last .container p:last-of-type {
@@ -924,4 +958,17 @@ h6 {
     letter-spacing: 0%;
     vertical-align: middle;
     color: #FFFFFF;
+
+}
+
+.logos {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.logos svg:hover g {
+    fill: white;
+    stroke: white;
+    opacity: 100%;
 }
