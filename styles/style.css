@@ -487,6 +487,12 @@ h3 {
 
 }
 
+.corner-circle2 {
+    left: 1340px;
+    transform: rotate(180deg);
+    bottom: 600px;
+}
+
 .bar {
     width: 100%;
     padding-left: 40px;
@@ -593,6 +599,39 @@ h3 {
     background-color: #F4F5F6;
     position: relative;
     color: #424551;
+}
+
+.full-circle {
+    top: 150px;
+    left: -50px;
+
+}
+
+.semi-circle2 {
+    bottom: 550px;
+    left: -30px;
+}
+
+.dots2 {
+    left: 1000px;
+    bottom: 550px;
+}
+
+.arrows3 {
+    left: 1420px;
+    bottom: 100px;
+
+}
+
+.semi-circles3 {
+    left: 970px;
+    top: 200px;
+}
+
+.corner-circleteam {
+    left: 1420px;
+    transform: rotate(-90deg);
+    top: 650px;
 }
 
 .team .container {
