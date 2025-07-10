@@ -266,16 +266,16 @@ body {
     height: 438px;
     width: 390px;
     cursor: pointer;
-
+box-shadow: 0 0 20px var(--shadow-color);
+    transition: all 0.2s ease;
 
     border-radius: 4px;
 
 }
 
 .karobka:hover {
-    box-shadow: 0 0 20px var(--shadow-color);
-    transition: all 0.2s ease;
-    transform: scale(1.1);
+box-shadow: 0 0 70px var(--shadow-color);
+    
 }
 
 .karobka-row {
