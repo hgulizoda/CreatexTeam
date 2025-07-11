@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: 'Lato';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+header,
+.lectures,
+.subscribe {
+    background-color: #FFD6D0;
+
+}
+
+header .container {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    align-items: center;
+    max-width: 1230px;
+}
+
+header a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #424551;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+    margin-right: 222px;
+}
+
+
+
+
+
+.btn {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    margin-right: 36px;
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 0 40px;
+    border: 1px solid #FF3F3A;
+    border-radius: 4px;
+    color: #FFFFFF;
+    max-height: 52px;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid #FF3F3A;
+    color: #FF3F3A;
+
+}
+
+.btn.transparent:hover {
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    color: #FFFFFF;
+
+
+}
+
+header svg:last-of-type {
+    margin-right: 8px;
+}
+
+header p,
+header a {
+    display: flex;
+    max-height: 26px;
+}
+
+
+.opening {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 120px 0;
+    background-color: #FFD6D0;
+    position: relative;
+}
+
+.opening p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    color: #FF3F3A;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    width: 1020px;
+}
+
+.opening .semi-circles {
+    position: absolute;
+    bottom: 350px;
+    right: 1420px;
+}
+
+.opening .corner-circle {
+    position: absolute;
+    opacity: 0.4;
+    top: 280px;
+    right: 1400px;
+}
+
+.opening .arrows {
+    position: absolute;
+    left: 1200px;
+    top: 360px;
+}
+
+.opening .dots {
+    position: absolute;
+    top: 123px;
+    left: 1400px;
+}
+
+.container {
+    max-width: 1230px;
+    margin: auto;
+}
+
+.about-the-course {
+    display: flex;
+    gap: 135px;
+    margin-top: 120px;
+    margin-bottom: 180px;
+
+}
+
+.about-the-course div:first-child {
+    width: 600px;
+    color: #1E212C;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+
+.about-the-course h2 {
+    margin-bottom: 40px;
+}
+
+.about-the-course div:first-child p {
+    color: #424551;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 48px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.about-the-course h3 {
+    color: #1E212C;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+
+.about-the-course ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.about-the-course li {
+    display: flex;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    align-items: center;
+}
+
+.about-the-course div:last-child {
+    width: 495px;
+    padding: 40px 32px;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 4px 4px 4px #1E212C08,
+        0px 12px 10px 6px #9A9CA50A,
+        0px 30px 24px 10px #9A9CA50D,
+        0px 80px 80px 20px #53555a06;
+}
+
+.about-the-course div:last-child:hover {
+    box-shadow: 0px 4px 4px -4px #1E212C08,
+        0px 12px 10px 6px #00000000,
+        0px 30px 24px 10px #0000000d,
+        0px 80px 80px 20px #9A9CA514;
+    transform: translateY(5px) scale(1.03);
+}
+
+.about-the-course h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.about-the-course b {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #FF3F3A;
+    margin-bottom: 8px;
+}
+
+.about-the-course div:last-child p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #787A80;
+    margin-bottom: 32px;
+}
+
+.about-the-course .btn {
+    width: 100%;
+}
+
+.cody {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.yellow {
+    width: 495px;
+    height: 580px;
+    background-color: #FFCF2D;
+    position: relative;
+}
+
+.yellow img {
+    width: 458px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.cody {
+    margin-bottom: 180px;
+}
+
+.cody .text {
+    width: 600px;
+}
+
+b {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1E212C;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.cody .text p:first-of-type {
+    font-weight: 400;
+    font-size: 20px;
+    color: #787A80;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 32px;
+}
+
+.cody .text ul {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.cody li {
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    align-items: center;
+}
+
+.cody p:last-of-type {
+    color: #424551;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+.cody .text div {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.cody .text div svg:hover path {
+    fill: #FF3F3A;
+    stroke: #FF3F3A;
+
+}
+
+.steps {
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+
+.steps div div p:first-of-type {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #D7DADD;
+    width: 54px;
+
+
+}
+
+.steps div div div {
+    width: 180px;
+    height: 0;
+    border: 1px dashed #D7DADD;
+}
+
+.box {
+    text-align: left;
+    margin-top: 152px;
+
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.smaller {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-transform: none;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+
+
+
+.steps p:last-of-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #787A80;
+    width: 285px;
+}
+
+.steps {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.head {
+    position: absolute;
+    margin-left: 348px;
+}
+
+
+
+.line p::before {
+    width: 116px;
+    height: 116px;
+    background-color: #FF3F3A;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    z-index: -2;
+    transform: translate(-30px, -30px);
+    opacity: 0;
+}
+
+.line p::after {
+    width: 84px;
+    height: 84px;
+    top: -12px;
+    left: -15px;
+    position: absolute;
+    opacity: 0;
+    background-color: #FF3F3A;
+    content: "";
+    border-radius: 50%;
+}
+
+.box:hover .line p::after {
+    animation: emerge;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+
+.box:hover .line p::before {
+    opacity: 0.06;
+    animation: appear;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+
+
+}
+
+.box:hover .line p {
+    color: #FF3F3A;
+}
+
+
+@keyframes emerge {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.12;
+    }
+}
+
+@keyframes appear {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.06;
+    }
+
+}
