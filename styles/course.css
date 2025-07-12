@@ -691,6 +691,10 @@ b {
 
 }
 
+.testimonials h2 {
+    margin-bottom: 60px;
+}
+
 .testimonials .container {
     margin: auto;
 }
