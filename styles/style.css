@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     transition: 0.3s;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -1026,13 +1027,14 @@ h6 {
 
 }
 
-.second p {
+.second a {
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
     letter-spacing: 0%;
     vertical-align: middle;
     color: white;
+    opacity: 0.6;
 }
 
 .footerinput {
@@ -1068,10 +1070,11 @@ input:focus {
 
 }
 
-.contact p {
+.contact a {
     display: flex;
     gap: 8px;
     align-items: center;
+    opacity: 0.6;
 }
 
 .sign {
