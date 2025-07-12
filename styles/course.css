@@ -40,6 +40,10 @@ header a {
     color: #424551;
 }
 
+header a:hover {
+    color: #FF3F3A;
+}
+
 nav {
     display: flex;
     gap: 40px;
